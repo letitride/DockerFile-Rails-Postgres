@@ -7,6 +7,7 @@
     $ docker-compose run web rails new . --force --database=postgresql
 
 ## Gemfileの更新
+    $ vi Gemfile
     #コメント解除
     gem 'therubyracer', platforms: :ruby
 
@@ -15,7 +16,7 @@
 ## config/database.yml
     default: &default
       adapter: postgresql
-      encoding: unicode
+      encoding: utf8
       host: db
       username: postgres
       password:
