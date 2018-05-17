@@ -1,6 +1,6 @@
 ## 準備
 
-    $ docker pull ruby:2.3.3
+    $ docker pull ruby:2.0.0
     $ docker pull postgres:9.6.6
 
 ## rails new
